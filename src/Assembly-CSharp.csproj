@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>F899324D-4490-48B5-9666-B59114FBC07C</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine" />
+    <Reference Include="JiXiangLobbyProtobuf" />
+    <Reference Include="System" />
+    <Reference Include="Assembly-CSharp-firstpass" />
+    <Reference Include="System.Core" />
+    <Reference Include="SmartFox2X" />
+    <Reference Include="NiuNiuProtobuf" />
+    <Reference Include="JiXiangLobbyProtobufSerializer" />
+    <Reference Include="protobuf-net" />
+    <Reference Include="NiuNiuProtobufSerializer" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActiveAnimation.cs" />
+    <Compile Include="AddFriendBar.cs" />
+    <Compile Include="AllScene.cs" />
+    <Compile Include="AnimatedAlpha.cs" />
+    <Compile Include="AnimatedColor.cs" />
+    <Compile Include="AnimatedWidget.cs" />
+    <Compile Include="AnimationOrTween\Direction.cs" />
+    <Compile Include="AnimationOrTween\DisableCondition.cs" />
+    <Compile Include="AnimationOrTween\EnableCondition.cs" />
+    <Compile Include="AnimationOrTween\Trigger.cs" />
+    <Compile Include="AsyncImageDownload.cs" />
+    <Compile Include="BetterList.cs" />
+    <Compile Include="BMFont.cs" />
+    <Compile Include="BMGlyph.cs" />
+    <Compile Include="BMSymbol.cs" />
+    <Compile Include="ByteReader.cs" />
+    <Compile Include="ChatInput.cs" />
+    <Compile Include="cn.sharesdk.unity3d.sdkporter\ManagePlatforms.cs" />
+    <Compile Include="DaiLiBar.cs" />
+    <Compile Include="DataManager.cs" />
+    <Compile Include="DownloadTexture.cs" />
+    <Compile Include="EnvelopContent.cs" />
+    <Compile Include="EquipItems.cs" />
+    <Compile Include="EquipRandomItem.cs" />
+    <Compile Include="EventDelegate.cs" />
+    <Compile Include="ExampleDragDropItem.cs" />
+    <Compile Include="ExampleDragDropSurface.cs" />
+    <Compile Include="ExpressionShow.cs" />
+    <Compile Include="FloatNoticeManager.cs" />
+    <Compile Include="FloatNoticePlay.cs" />
+    <Compile Include="FriendBar.cs" />
+    <Compile Include="FriendChat.cs" />
+    <Compile Include="FriendInfoBar.cs" />
+    <Compile Include="FriendManager.cs" />
+    <Compile Include="FSM.cs" />
+    <Compile Include="FsmFunc.cs" />
+    <Compile Include="FsmStateStruct.cs" />
+    <Compile Include="GameChatManager.cs" />
+    <Compile Include="GeneralizeManager.cs" />
+    <Compile Include="GetDateTime.cs" />
+    <Compile Include="GiveRecord.cs" />
+    <Compile Include="HelpOrRuleManager.cs" />
+    <Compile Include="IdGiveManager.cs" />
+    <Compile Include="InvAttachmentPoint.cs" />
+    <Compile Include="InvBaseItem.cs" />
+    <Compile Include="InvDatabase.cs" />
+    <Compile Include="InvEquipment.cs" />
+    <Compile Include="InvGameItem.cs" />
+    <Compile Include="InvStat.cs" />
+    <Compile Include="LagPosition.cs" />
+    <Compile Include="LagRotation.cs" />
+    <Compile Include="LanguageSelection.cs" />
+    <Compile Include="LoadLevelOnClick.cs" />
+    <Compile Include="LobbyState.cs" />
+    <Compile Include="Localization.cs" />
+    <Compile Include="LookAtTarget.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="MoreBarManager.cs" />
+    <Compile Include="NetManager.cs" />
+    <Compile Include="NGUIDebug.cs" />
+    <Compile Include="NGUIMath.cs" />
+    <Compile Include="NGUIText.cs" />
+    <Compile Include="NGUITools.cs" />
+    <Compile Include="NiuNiu\GameDataManager.cs" />
+    <Compile Include="NiuNiu\GameMain.cs" />
+    <Compile Include="NiuNiu\GameUIManager.cs" />
+    <Compile Include="NiuNiu\LookOnPlayerManager.cs" />
+    <Compile Include="NiuNiu\NiuNiuNetManager.cs" />
+    <Compile Include="NiuNiu\Player.cs" />
+    <Compile Include="NiuNiu\PlayerBase.cs" />
+    <Compile Include="NiuNiu\PlayerPokerManager.cs" />
+    <Compile Include="NoticeManager.cs" />
+    <Compile Include="OneScene.cs" />
+    <Compile Include="OpenURLOnClick.cs" />
+    <Compile Include="OperationRecord.cs" />
+    <Compile Include="PanelType.cs" />
+    <Compile Include="Panel_Basic.cs" />
+    <Compile Include="Panel_Lobby.cs" />
+    <Compile Include="Panel_Login.cs" />
+    <Compile Include="Panel_Tips.cs" />
+    <Compile Include="PanWithMouse.cs" />
+    <Compile Include="PlayerBarManager.cs" />
+    <Compile Include="PlayIdleAnimations.cs" />
+    <Compile Include="PoolManager.cs" />
+    <Compile Include="Prefab_chat.cs" />
+    <Compile Include="Prefab_chatText.cs" />
+    <Compile Include="Prefab_Friend.cs" />
+    <Compile Include="Prefab_NoticeItem.cs" />
+    <Compile Include="PropertyBinding.cs" />
+    <Compile Include="PropertyReference.cs" />
+    <Compile Include="PUID.cs" />
+    <Compile Include="RealTime.cs" />
+    <Compile Include="SafaManager.cs" />
+    <Compile Include="SendNoticeManager.cs" />
+    <Compile Include="SetColorPickerColor.cs" />
+    <Compile Include="SettingManager.cs" />
+    <Compile Include="ShopManager.cs" />
+    <Compile Include="Singleton.cs" />
+    <Compile Include="SingletonMono.cs" />
+    <Compile Include="SingletonType.cs" />
+    <Compile Include="SoundManager.cs" />
+    <Compile Include="SoundType.cs" />
+    <Compile Include="Spin.cs" />
+    <Compile Include="SpinWithMouse.cs" />
+    <Compile Include="SpringPanel.cs" />
+    <Compile Include="SpringPosition.cs" />
+    <Compile Include="TaskManager.cs" />
+    <Compile Include="TipManager.cs" />
+    <Compile Include="Tutorial5.cs" />
+    <Compile Include="TweenAlpha.cs" />
+    <Compile Include="TweenColor.cs" />
+    <Compile Include="TweenFill.cs" />
+    <Compile Include="TweenFOV.cs" />
+    <Compile Include="TweenHeight.cs" />
+    <Compile Include="TweenOrthoSize.cs" />
+    <Compile Include="TweenPosition.cs" />
+    <Compile Include="TweenRotation.cs" />
+    <Compile Include="TweenScale.cs" />
+    <Compile Include="TweenTransform.cs" />
+    <Compile Include="TweenVolume.cs" />
+    <Compile Include="TweenWidth.cs" />
+    <Compile Include="TypewriterEffect.cs" />
+    <Compile Include="UI2DSprite.cs" />
+    <Compile Include="UI2DSpriteAnimation.cs" />
+    <Compile Include="UIAnchor.cs" />
+    <Compile Include="UIAtlas.cs" />
+    <Compile Include="UIBasicSprite.cs" />
+    <Compile Include="UIButton.cs" />
+    <Compile Include="UIButtonActivate.cs" />
+    <Compile Include="UIButtonColor.cs" />
+    <Compile Include="UIButtonKeys.cs" />
+    <Compile Include="UIButtonMessage.cs" />
+    <Compile Include="UIButtonOffset.cs" />
+    <Compile Include="UIButtonRotation.cs" />
+    <Compile Include="UIButtonScale.cs" />
+    <Compile Include="UICamera.cs" />
+    <Compile Include="UICenterOnChild.cs" />
+    <Compile Include="UICenterOnClick.cs" />
+    <Compile Include="UIColorPicker.cs" />
+    <Compile Include="UICursor.cs" />
+    <Compile Include="UIDragCamera.cs" />
+    <Compile Include="UIDragDropContainer.cs" />
+    <Compile Include="UIDragDropItem.cs" />
+    <Compile Include="UIDragDropRoot.cs" />
+    <Compile Include="UIDraggableCamera.cs" />
+    <Compile Include="UIDragObject.cs" />
+    <Compile Include="UIDragResize.cs" />
+    <Compile Include="UIDragScrollView.cs" />
+    <Compile Include="UIDrawCall.cs" />
+    <Compile Include="UIEquipmentSlot.cs" />
+    <Compile Include="UIEventListener.cs" />
+    <Compile Include="UIEventTrigger.cs" />
+    <Compile Include="UIFont.cs" />
+    <Compile Include="UIForwardEvents.cs" />
+    <Compile Include="UIGeometry.cs" />
+    <Compile Include="UIGrid.cs" />
+    <Compile Include="UIImageButton.cs" />
+    <Compile Include="UIInput.cs" />
+    <Compile Include="UIInputOnGUI.cs" />
+    <Compile Include="UIItemSlot.cs" />
+    <Compile Include="UIItemStorage.cs" />
+    <Compile Include="UIKeyBinding.cs" />
+    <Compile Include="UIKeyNavigation.cs" />
+    <Compile Include="UILabel.cs" />
+    <Compile Include="UILocalize.cs" />
+    <Compile Include="UIManager.cs" />
+    <Compile Include="UIOrthoCamera.cs" />
+    <Compile Include="UIPanel.cs" />
+    <Compile Include="UIPlayAnimation.cs" />
+    <Compile Include="UIPlaySound.cs" />
+    <Compile Include="UIPlayTween.cs" />
+    <Compile Include="UIPopupList.cs" />
+    <Compile Include="UIProgressBar.cs" />
+    <Compile Include="UIRect.cs" />
+    <Compile Include="UIRoot.cs" />
+    <Compile Include="UISavedOption.cs" />
+    <Compile Include="UIScrollBar.cs" />
+    <Compile Include="UIScrollView.cs" />
+    <Compile Include="UIShowControlScheme.cs" />
+    <Compile Include="UISlider.cs" />
+    <Compile Include="UISliderColors.cs" />
+    <Compile Include="UISnapshotPoint.cs" />
+    <Compile Include="UISoundVolume.cs" />
+    <Compile Include="UISprite.cs" />
+    <Compile Include="UISpriteAnimation.cs" />
+    <Compile Include="UISpriteData.cs" />
+    <Compile Include="UIStorageSlot.cs" />
+    <Compile Include="UIStretch.cs" />
+    <Compile Include="UITable.cs" />
+    <Compile Include="UITextList.cs" />
+    <Compile Include="UITexture.cs" />
+    <Compile Include="UIToggle.cs" />
+    <Compile Include="UIToggledComponents.cs" />
+    <Compile Include="UIToggledObjects.cs" />
+    <Compile Include="UITooltip.cs" />
+    <Compile Include="UITweener.cs" />
+    <Compile Include="UIViewport.cs" />
+    <Compile Include="UIWidget.cs" />
+    <Compile Include="UIWidgetContainer.cs" />
+    <Compile Include="UIWrapContent.cs" />
+    <Compile Include="WindowAutoYaw.cs" />
+    <Compile Include="WindowDragTilt.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
